@@ -23,4 +23,5 @@ dest_dir = root dir where sorted files will be MOVED
     
 # Sort logic
 each file is examined using EXIF DateTime tag, if that is not found it fallbacks to stat modification date (os.path.getmtime).
-Then the file is moved to destination directory dest_dir/year/month/day/sorted_<filename>
+Year, month and day are obtained and dir tree ```dest_dir/year/month/day/``` is created if it does not exist already.
+Then the file is moved to destination directory ```dest_dir/year/month/day/sorted_{filename}```
