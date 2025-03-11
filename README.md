@@ -9,7 +9,7 @@
 
 Have an easy life moving iPhone photos/videos imported in Linux
 
-# Dependencies:
+# Dependencies
 https://pypi.org/project/pillow/
 
 # Usage
